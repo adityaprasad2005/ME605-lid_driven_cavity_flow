@@ -1,2 +1,14 @@
-# ME605-lid_driven_cavity_flow
-This project implemented 2D simulation of Lid Driven Cavity flow using SIMPLE algo. It was conducted as part of the ME605 Computational Fluid Dynamics course taught by Prof. Dilip S. Sundaram.
+# Lid-Driven Cavity Flow Simulation
+
+This repository contains the source code for a 2D incompressible Navier-Stokes solver using the **SIMPLE algorithm** to simulate lid-driven cavity flow. The code implements the Finite Volume Method (FVM) on a staggered grid.
+
+## Features
+
+* Solves steady-state incompressible Navier-Stokes equations.
+* Implements the SIMPLE algorithm for pressure-velocity coupling.
+* Uses a staggered grid for velocity and pressure variables.
+* Demonstrates grid independence by simulating with three different grid sizes.
+* Visualizes results :
+    * Contour plots of x-velocity, y-velocity, and pressure.
+    * Line plots of velocity and pressure along centerlines.
+    * Streamline plots for different grid sizes.
